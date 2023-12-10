@@ -1,9 +1,10 @@
-import React from 'react'
+import { Flex, Text, Button } from '@radix-ui/themes';
 
-const App = () => {
+export default function MyApp() {
   return (
-    <div>App</div>
-  )
+    <Flex direction="column" gap="2">
+      <Text>Hello from Radix Themes :)</Text>
+      <Button>Let's go</Button>
+    </Flex>
+  );
 }
-
-export default App
